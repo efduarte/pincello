@@ -12,7 +12,7 @@ There are some good alternatives for the Arduino IDE. Among them, the acclaimed 
 
 Sublime Text is available for Windows, Linux and OS X. Head to [https://www.sublimetext.com/](https://www.sublimetext.com/) and download the editor (the current version at the writing of this guide is 3.0, build 3143). The installation process is pretty straightforward, however, many would argue that Sublime Text isn't complete without [Package Control](https://packagecontrol.io/). Package Control is a package manager which makes it very simple to search, install and update packages for the editor. To install it, follow the instructions on [https://packagecontrol.io/installation](https://packagecontrol.io/installation).
 
-?> **Quick tip:** the Command Palette is one of the best features of the Sublime Text editor in terms of productivity. You can open it from `Tools > Command Palette...` or with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>. Once the Command Palette is open, you can freely type what you want, such as toolbar actions or other useful commands.
+?> **Command Palette:** this is one of the best features of the Sublime Text editor in terms of productivity. You can open it from `Tools > Command Palette...` or with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>. Once the Command Palette is open, you can freely type what you want, such as toolbar actions or other useful commands.
 
 ## 2. Install Deviot for Sublime Text
 
@@ -22,7 +22,7 @@ Before anything else, Deviot needs [Python](https://www.python.org/) in order to
 
 After making sure you have Python 2.x installed, you are now ready to install Deviot. In Sublime Text, bring up the Command Palette (`Tools > Command Palette...` or <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>) and then search for and select the option `Package Control: Install Package`. You will be prompted with a search field for the package you want to install, search for `Deviot (Arduino IDE)`, hit enter and wait until it's installed.
 
-?> **Quick tip:** you don't need to type everything in sequence in the Command Palette: by typing `install` (or even less), it will already bring up and focus `Package Control: Install Package`, then you just have to hit enter.
+?> **Command Palette search:** you don't need to type everything in sequence: by typing `install` (or even less), it will already bring up and focus `Package Control: Install Package`, then you just have to hit enter.
 
 After Deviot is installed, a new menu option should appear inside Sublime Text:
 
@@ -34,9 +34,9 @@ You can access everything related to Deviot from this menu or from the Command P
 
 Now that the proper tools are ready, it's time to create your first sketch (in Arduino terminology, a sketch is basically a program). In Sublime Text, go to `Deviot > New Sketch` (or use the Command Palette if you're already comfortable with it) and type in `blink` as the name of the sketch (or, if you are rebellious 😠, any other name you want 😁) and hit enter. After you named the sketch, you still need to select the directory where it will be saved (your choice will be remembered as the first option next time).
 
-?> **Arduino Sketch Structure:** every Arduino sketch has the same structure, which is composed of a folder with the name of the sketch, and inside the folder a `.ino` file with the same name as the folder. In the example above, it will create `blink/blink.ino` in the directory you selected. If you want to, you can manually create a sketch folder and file and open it with Sublime Text.
+?> **Arduino Sketch structure:** every Arduino sketch has the same structure, which is composed of a folder with the name of the sketch, and inside the folder a `.ino` file with the same name as the folder. In the example above, it will create `blink/blink.ino` in the directory you selected. If you want to, you can manually create a sketch folder and file and open it with Sublime Text.
 
-Go ahead and fill in the new file with the following electronics equivalent of the Hello World: 
+Go ahead and fill in the new file with the following electronics equivalent of the Hello World:
 
 ```arduino
 void setup()
@@ -69,7 +69,7 @@ But what is this code 🤔? Usually, every Arduino file needs two basic methods:
     - print the information that our LED is off; and
     - wait a second before starting the loop all over again.
 
-?> **Serial Communication?** While the serial communication is not needed for our sketch to work, it can be a useful debugging tool when used with a serial monitor, as you will do in the next step.
+?> **Serial communication?** While the serial communication is not needed for our sketch to work, it can be a useful debugging tool when used with a serial monitor, as you will do in the next step.
 
 ## 4. Compile & Upload Your Sketch
 

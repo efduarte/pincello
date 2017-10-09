@@ -1,0 +1,47 @@
+article a[href*="//"]:not([href*="efduarte.github.io"])::before
+{
+    content: "🔗";
+}
+
+.copy-button
+{
+    color: #34495e;
+    margin-top:1em;
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 1em;
+    border-radius: 1em;
+    font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif;
+    outline: 0;
+}
+
+.copy-button:hover
+{
+    cursor: pointer;
+}
+
+.copy-button:active
+{
+    background: #eee;
+    border: 1px solid #ddd;
+}
+
+.copy-button:active::after
+{
+    color: #999999;
+    position: absolute;
+    padding-left: 2em;
+    content: " copied!";
+    font-style: italic;
+}
+
+footer,
+footer a
+{
+    color: #BBBBBB !important;
+}
+
+footer a::before
+{
+    content: "" !important;
+}
