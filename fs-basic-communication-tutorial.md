@@ -18,7 +18,7 @@ For this circuit, besides a breadboard and some jumpers, you will need:
 - `1x` [RGB LED](actuator-rgb-led.md)
 - `3x` [330Ω Resistor](essentials.md#_330%ce%a9-resistor)
 
-The circuit must be built according to the following representation:
+The circuit must be built according to the following representation (you don't need to use the exact same positions on the breadboard, as long as the represented connections are maintained):
 
 ![Circuito](_images/fs-circuit.png)
 

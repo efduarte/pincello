@@ -47,6 +47,7 @@ window.$docsify =
                 {
                     if (pre[i].getAttribute("data-lang") == "html" || pre[i].getAttribute("data-lang") == "css" || pre[i].getAttribute("data-lang") == "javascript" || pre[i].getAttribute("data-lang") == "arduino")
                     {
+                        pre[i].className += " line-numbers";
                         var button = document.createElement('button');
                         button.className = 'copy-button';
                         button.textContent = '📋 Copy code to clipboard';
