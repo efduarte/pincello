@@ -18,7 +18,7 @@ Sublime Text is available for Windows, Linux and OS X. Head to [https://www.subl
 
 Before anything else, Deviot needs [Python](https://www.python.org/) in order to work, more specifically, Python 2.x. If you use Linux or OS X, you probably already have it pre-installed, if not, you can easily install it from [https://www.python.org/downloads/](https://www.python.org/downloads/) (the current version at the writing of this guide is 2.7.14).
 
-!> **Attention:** make sure to install **Python 2.x**, not Python 3.x!
+!> **Attention:** make sure to install **Python 2.x**, not Python 3.x!<br /><br />**Windows users:** also make sure to select the option to add Python to PATH.
 
 After making sure you have Python 2.x installed, you are now ready to install Deviot. In Sublime Text, bring up the Command Palette (`Tools > Command Palette...` or <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>) and then search for and select the option `Package Control: Install Package`. You will be prompted with a search field for the package you want to install, search for `Deviot (Arduino IDE)`, hit enter and wait until it's installed.
 
