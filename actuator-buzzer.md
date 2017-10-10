@@ -1,6 +1,6 @@
 # Buzzer
 
-Comming soon...
+Coming soon...
 
 <!-- ![Demo Buzzer](img/demo-buzzer.png)
 

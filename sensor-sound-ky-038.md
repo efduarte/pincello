@@ -1,6 +1,6 @@
 # Sound Sensor (KY-038)
 
-Comming soon...
+Coming soon...
 
 <!-- ![Demo SW-420](img/demo-ky-038.png)
 

@@ -1,6 +1,6 @@
 # RGB LED
 
-Comming soon...
+Coming soon...
 
 <!-- ![Demo LED RGB](img/demo-led-rgb.png)
 

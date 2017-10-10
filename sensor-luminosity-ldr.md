@@ -1,6 +1,6 @@
 # Luminosity Sensor (LDR)
 
-Comming soon...
+Coming soon...
 
 <!-- ![Demo LDR](img/demo-ldr.png)
 

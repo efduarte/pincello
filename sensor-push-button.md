@@ -1,6 +1,6 @@
 # Push Button
 
-Comming soon...
+Coming soon...
 
 <!-- ![Demo Button](img/demo-button.png)
 

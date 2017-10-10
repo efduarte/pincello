@@ -10,11 +10,12 @@
 
   - **Sensors**
     - [Humidity and Temperature (DHT11)](sensor-humidity-and-temperature-dht11.md)
-    - [Capacitive Touch Button (TTP-223)](sensor-capacitive-touch-button-ttp223.md)
+    - [Capacitive Touch Button (TTP223)](sensor-capacitive-touch-button-ttp223.md)
     - [Reflexive Obstacle (FC-51)](sensor-reflexive-obstacle-FC-51.md)
     - [Vibration (SW-420)](sensor-vibration-sw-420.md)
     - [Luminosity (LDR)](sensor-luminosity-ldr.md)
     - [Sound (KY-038)](sensor-sound-ky-038.md)
+    - [Tilt (SW-200D)](sensor-tilt-sw-200d.md)
     - [Push Button](sensor-push-button.md)
     
   - **Actuators**

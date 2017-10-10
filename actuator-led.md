@@ -1,6 +1,6 @@
 # LED
 
-Comming soon...
+Coming soon...
 
 <!-- ![Circuito LED](img/demo-led.png)
 

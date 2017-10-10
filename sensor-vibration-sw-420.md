@@ -1,6 +1,6 @@
 # Vibration Sensor (SW-420)
 
-Comming soon...
+Coming soon...
 
 <!-- ![Demo SW-420](_images/demo-sw-420.png)
 

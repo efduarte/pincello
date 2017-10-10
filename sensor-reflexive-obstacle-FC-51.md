@@ -1,6 +1,6 @@
 # Reflexive Obstacle Sensor (FC-51)
 
-Comming soon...
+Coming soon...
 
 <!-- ![Demo SW-420](img/demo-fc-51.png)
 

@@ -1,6 +1,6 @@
 # Humidity and Temperature Sensor (DHT11)
 
-Comming soon...
+Coming soon...
 
 <!-- ![Demo DHT11](_images/circuit-dht11-teste.png)
 
