@@ -3,6 +3,18 @@ article a[href*="//"]:not([href*="efduarte.github.io"])::before
     content: "🔗";
 }
 
+img[src*="_images/essentials-"]
+{
+    float: left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    clear: both;
+}
+
 .copy-button
 {
     color: #34495e;
@@ -39,6 +51,7 @@ footer,
 footer a
 {
     color: #BBBBBB !important;
+    clear: both;
 }
 
 footer a::before
