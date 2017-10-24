@@ -2,7 +2,7 @@
 
 The DHT11 is a basic digital temperature and humidity sensor. It uses a capacitive humidity sensor and a thermistor to measure relative air humidity and temperature, respectively. It can be used to monitor the temperature and humidity of an ambient, but it can also detect some forms of human interaction (if you blow on it, you might see an increase in both temperature and humidity), but keep in mind that it can only be read once every second or two. For more information o DHT sensors, this tutorial is recommended: [DHTxx Sensors](https://learn.adafruit.com/dht/overview).
 
-![Demo DHT11](_images/sensor-dht11-circuit.png)
+![Demo DHT11](_images/sensor-humidity-and-temperature-dht11.png)
 
 !>**Resistor:** for the safety of your components, don't forget to use a 10KΩ resistor as illustrated.
 
