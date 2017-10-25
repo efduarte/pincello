@@ -24,7 +24,7 @@ void loop()
 }
 ```
 
-## A More Complex Example
+## A More Useful Code Example
 
 The code above can be useful to understand the sensor, but you will find that for every second touching the sensor it will print hundreds of messages on the Serial Monitor. This is not suitable, for instance, if we want to send an MQTT message every time the button is pressed or released. For that, the following code is more appropriate.
 

@@ -26,7 +26,7 @@ void loop()
 }
 ```
 
-## A More Complex Example
+## A More Useful Code Example
 
 The code above can be useful to understand the sensor, but you will find that for every small nudge to the sensor it will print hundreds of messages on the Serial Monitor. This is not suitable, for instance, if we want to send an MQTT message every time a vibration is detected or has stopped. For that, the following code is more appropriate. The logic is that, without using the blocking `delay()` function, every time a vibration is detected the code enters a “vibrating” state that will expire after 500 milliseconds, but only if no further vibrations are detected in that timeframe.
 

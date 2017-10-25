@@ -1,6 +1,6 @@
 # Reflexive Obstacle Sensor (FC-51)
 
-The FC-51 is a digital reflexive obstacle sensor. It is capable of detecting the presence of objects (or anything that reflects light, such as your hand) positioned from 2 to 30 centimeters from it, the actual distance is adjusted with the sensor's potentiometer. Keep in mind that the signal is binary, it will only inform the presence or absence of an object, not the distance. This sensor can be used to detect touchless interactions, such as reaching your hand towards the sensor without the need to actually touch it.
+The FC-51 is a digital reflexive obstacle sensor. It is capable of detecting the presence of objects (or anything that reflects light, such as your hand) positioned from 2 to 30 centimeters from it. Keep in mind that the signal is binary, it will only inform the presence or absence of an object, not the distance. This sensor can be used to detect touchless interactions, such as reaching your hand towards the sensor without the need to actually touch it.
 
 ![FC-51 Circuit](_images/sensor-reflexive-obstacle-fc-51.png)
 
@@ -26,7 +26,7 @@ void loop()
 }
 ```
 
-## A More Complex Example
+## A More Useful Code Example
 
 The code above can be useful to understand the sensor, but you will find that for every second an obstacle is detected the sensor it will print hundreds of messages on the Serial Monitor. This is not suitable, for instance, if we want to send an MQTT message every time an obstacle is detected or stopped being detected. For that, the following code is more appropriate.
 
