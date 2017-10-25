@@ -4,7 +4,7 @@ The SW-420 is a digital vibration sensor. After a certain vibration threshold (a
 
 ![SW-420 Circuit](_images/sensor-vibration-sw-420.png)
 
-The following code reads the output from the sensor and prints a message on the Serial Monitor when vibration is sensed. The code itself is very simple and does not need any library for it to work.
+The following code reads the output from the sensor and prints a message on the Serial Monitor when vibration is detected. The code itself is very simple and does not need any library for it to work.
 
 ?> **Potentiometer:** if your sensor never detects a vibration, or detects too many, try gently turning the sensor's potentiometer. You can make it more sensible by turning the potentiometer counter-clockwise, or less sensitive by turning it clockwise. However, remember to turn it gently, as both extremes are usually not very useful.
 
