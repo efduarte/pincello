@@ -2,7 +2,7 @@
 
 Now that the MQTT Broker is configured and ready to use, and you're able to program our microcontroller, it's time to do something more interesting than blinking a LED 😎. In this guide you will build a playful two-way communication between two things by using the Internet: a circuit built with our microcontroller; and a simple web page built with the front-end languages HTML, CSS and JavaScript.
 
-?> **Do I need a web server?** Because this guide uses only simple front-end technologies, you will not need to install or use any kind of local or remote web server. A modern web browser will be enough. 
+?> **🖥️ Do I need a web server?** Because this guide uses only simple front-end technologies, you will not need to install or use any kind of local or remote web server. A modern web browser will be enough. 
 
 The interaction will be as follows:
 
@@ -26,15 +26,15 @@ The circuit must be built according to the following representation (you don't n
 
 - **RGB LED:** the red, green and blue pins are connected the microcontroller's `D5`, `D6` and `D7` respectively (with individual 330Ω resistors along the connection). The energy pin (the longest one) is connected to `GND`.
 
-!> **Resistors:** always make sure to use the indicated resistors. If you use the wrong kind of resistor or forget to use one at all, you may damage your components.
+!> **⚡ Resistors:** always make sure to use the indicated resistors (330Ω in this case). If you use the wrong kind of resistor or forget to use one at all, you may damage your components.
 
-?> **Common Cathode vs. Common Anode:** there are two kinds of RGB LEDs. The above example uses a common cathode one, so the energy pin is connected to `GND`. A common anode, on the other hand, should have the energy pin on `3V3`. It's easy to confuse between the two, so if your RGB LED seems broken maybe it's the other kind!
+?> **🚥 Common Cathode vs. Common Anode:** there are two kinds of RGB LEDs. The above example uses a common cathode one, so the energy pin is connected to `GND`. A common anode, on the other hand, should have the energy pin on `3V3`. It's easy to confuse between the two, so if your RGB LED seems broken maybe it's the other kind!
 
 ## 2. Program the Sketch
 
 As the sketch will make use of a third-party library, you will need to install it first. To communicate with the MQTT Broker, a library made by the same person who created shiftr.io will be used: the [MQTT library for Arduino by Joel Gaehwiler](https://github.com/256dpi/arduino-mqtt). To install it, go to `Deviot > Find/Install Library` and search for `MQTT Joel Gaehwiler`. This search will return only the correct library, so go ahead and install it. Now create a `basic-communication` sketch:
 
-!> **Credentials:** remember to edit lines 5 and 6 of the sketch with the shiftr.io microcontroller token you created in [How to Configure the MQTT Broker](fs-how-to-configure-the-mqtt-broker.md), and lines 11 and 12 with the Wi-Fi settings you will be using.
+!> **🔒 Credentials:** remember to edit lines 5 and 6 of the sketch with the shiftr.io microcontroller token you created in [How to Configure the MQTT Broker](fs-how-to-configure-the-mqtt-broker.md), and lines 11 and 12 with the Wi-Fi settings you will be using.
 
 ```arduino
 #include <ESP8266WiFi.h>
@@ -281,7 +281,7 @@ This file makes our sliders span across the entire page and defines two styles f
 
 Edit the `js/script.js` file with the following content:
 
-!> **Credentials:** remember to edit line 1 of the `js/script.js` file with the shiftr.io web page token you created in [How to Configure the MQTT Broker](fs-how-to-configure-the-mqtt-broker.md).
+!> **🔒 Credentials:** remember to edit line 1 of the `js/script.js` file with the shiftr.io web page token you created in [How to Configure the MQTT Broker](fs-how-to-configure-the-mqtt-broker.md).
 
 ```javascript
 var url = 'mqtt://KEY:SECRET@broker.shiftr.io';          //token KEY and SECRET from shiftr.io
@@ -370,13 +370,13 @@ This code subscribes to the `/vibration` topic and does the following: when it r
 
 If you correctly followed every step in this guide, your circuit and web page are already capable of communicating with each other 🎉! Power on your circuit, open your web page in a web browser and see if everything is working as it should. If you're having any problems, the serial monitor will be a useful tool for debugging things on the microcontroller, while the JavaScript console of your browser will be a useful tool for debugging things on the web page.
 
-?> **Do the microcontroller and web page need to be on the same network?** As the communication happens over the Internet, there's no problem in using different Wi-Fio or wired networks for the microcontroller and web page, as long as each network has access to the servers of shiftr.io.
+?> **📡 Do the microcontroller and web page need to be on the same network?** As the communication happens over the Internet, there's no problem in using different Wi-Fio or wired networks for the microcontroller and web page, as long as each network has access to the servers of shiftr.io.
 
 ## 5. Further Steps
 
 Can you add new sensors or actuators? The reflexive obstacle sensor, for instance, has the exact same pins as the used vibration sensor, so it's possible to change between the two in the circuit without changing a single line of code. But what about other sensors with different connections? And how to publish and subscribe to topics? Pincello has meaningful documentation for each one of the actuators and sensors in the list of [recommended components](components.md), so you may want to go ahead and explore Pincello according to your interest and on your own rhythm. For help on how to publish and subscribe to new topics, there are two perspectives: JavaScript and microcontroller.
 
-!> **Remember to unplug your microcontroller!** If you want to make changes in the circuit, first remember to turn off your microcontroller by pulling of the micro USB cable from the microcontroller or from the computer. If you change your circuit without powering it off on you will damage your components.
+!> **🔌 Remember to unplug your microcontroller!** If you want to make changes in the circuit, first remember to turn off your microcontroller by pulling of the micro USB cable from the microcontroller or from the computer. If you change your circuit without powering it off on you will damage your components.
 
 ### 5.1. MQTT Topics: JavaScript
 
@@ -420,7 +420,7 @@ client.on('message', function(topic, message)
 
 Publishing to a topic is easier, you just need to call the `publishTopic` JavaScript function which has two parameters: the topic to publish to and the message. For instance, `publishTopic('/feedback', "this is my feedback");` would publish the message `"this is my feedback"` to the `'/feedback'` topic.
 
-?> **Do I need to subscribe before publishing?** You do not need to be subscribed to a topic to publish to it.
+?> **↕️ Do I need to subscribe before publishing?** You do not need to be subscribed to a topic to publish to it.
 
 ### 5.1. MQTT Topics: Microcontroller
 
@@ -479,4 +479,4 @@ void messageReceived(String &topic, String &payload)
 
 To publish to a topic, you just need to call the `client.publish` function, as in lines 67 and 80. which has two parameters: the topic to publish to and the message. For instance, `client.publish("/color", "#FF0000", false, QoS);` would publish the message `"#FF0000"` to the `'/feedback'` topic.
 
-?> **What is QoS?** It means Quality of Service, which defines the guarantees of delivering a message in MQTT. There are 3 QoS levels in MQTT: 0 (at most once), 1 (at least once) and 2 (exactly once). QoS 0 means that if the message is lost along the way, like in a packet loss, it will not be delivered. QoS 1 means that it will always be delivered at least once, but due to the same problems, it may be delivered more than once (duplicate). Lastly, QoS 3 means that the message will be delivered exactly once, at the expense of a longer response time.
+?> **🏅 What is QoS?** It means Quality of Service, which defines the guarantees of delivering a message in MQTT. There are 3 QoS levels in MQTT: 0 (at most once), 1 (at least once) and 2 (exactly once). QoS 0 means that if the message is lost along the way, like in a packet loss, it will not be delivered. QoS 1 means that it will always be delivered at least once, but due to the same problems, it may be delivered more than once (duplicate). Lastly, QoS 3 means that the message will be delivered exactly once, at the expense of a longer response time.

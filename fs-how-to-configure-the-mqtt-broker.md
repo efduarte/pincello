@@ -24,7 +24,7 @@ As a suggestion, you can call your first namespace `pincello-first-steps`.
 
 With a namespace ready, now you need to create access tokens. It is recommended to create an individual token for each client you intend to connect to this namespace. To do that, in your namespace page you have to click on `Namespace Settings`, and then on `Add Token`. You will find that the form comes filled with a random key 🔑 (username) and secret 🤐 (password), you can use these or edit them to something of your liking (but keep in mind that the key must be unique on shiftr.io). You also need to choose between `full-access` (publish and subscribe) and `read-only` (subscribe only) permissions. Lastly, there is the option of providing an optional description.
 
-?> **Security**: the `read-only` permission provides a layer of security: access to key and secret allows only to subscribe to topics, not publish to them. This is a good practice for clients that do not intend to publish messages.
+?> **🔒 Security**: the `read-only` permission provides a layer of security: access to key and secret allows only to subscribe to topics, not publish to them. This is a good practice for clients that do not intend to publish messages.
 
 ![shiftr.io token page](_images/fs-shiftrio-token.png)
 
