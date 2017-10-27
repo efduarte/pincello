@@ -8,7 +8,7 @@ A LED (Light-Emitting Diode) is one of the most common elements in electronics. 
 
 ?>**🤔 Correct side?** LEDs are polarized, which means one of their connectors is the positive side, and the other is negative. In the above image, the positive side is the one with the bent pin. To identify polarity, take notice that the longest pin is usually the positive one, and the negative side has a flat edge on the LED's outer casing.
 
-The following code is the electronics equivalent of the Hello World. It turns the LED for one second (1000 milliseconds), turns it off for another second, and then this loop is repeated indefinitely.
+The following code is the electronics equivalent of the Hello World. It turns the LED for one second (1000 milliseconds), turns it off for another second, and then this loop is repeated indefinitely. The code itself is straightforward and does not need any library for it to work.
 
 ```arduino
 const int led_pin = D0;

@@ -1,8 +1,8 @@
 # How to Configure the MQTT Broker
 
-Don't worry, there is nothing wrong in not knowing what's an MQTT broker. The [MQTT](http://mqtt.org/) protocol is used in Pincello because it is a lightweight and easy way of sending and receiving messages between devices, even in unreliable networks, such as a mobile connection. In the MQTT protocol, an MQTT broker acts as a central hub to which clients connect. The broker receives all published messages, and then send them out to interested clients.
+Don't worry. There is nothing wrong in not knowing what's an MQTT broker. The [MQTT](http://mqtt.org/) protocol is used in Pincello because it is a lightweight and easy way of sending and receiving messages between devices, even in unreliable networks, such as a mobile connection. In the MQTT protocol, an MQTT broker acts as a central hub to which clients connect. The broker receives all published messages, and then send them out to interested clients.
 
-There are a lot of MQTT Broker platforms available online. Among them, [shiftr.io](https://shiftr.io/) was chosen for being free, easy to use, well documented, and also providing interesting visualizations of the exchange of messages.
+There are a lot of MQTT Broker platforms available online. Among them, [shiftr.io](https://shiftr.io/) was chosen for being free, easy to use, well documented, and also providing compelling visualizations of the exchange of messages.
 
 ![shiftr.io homepage](_images/fs-shiftrio.png)
 
@@ -24,7 +24,7 @@ As a suggestion, you can call your first namespace `pincello-first-steps`.
 
 With a namespace ready, now you need to create access tokens. It is recommended to create an individual token for each client you intend to connect to this namespace. To do that, in your namespace page you have to click on `Namespace Settings`, and then on `Add Token`. You will find that the form comes filled with a random key 🔑 (username) and secret 🤐 (password), you can use these or edit them to something of your liking (but keep in mind that the key must be unique on shiftr.io). You also need to choose between `full-access` (publish and subscribe) and `read-only` (subscribe only) permissions. Lastly, there is the option of providing an optional description.
 
-?> **🔒 Security**: the `read-only` permission provides a layer of security: access to key and secret allows only to subscribe to topics, not publish to them. This is a good practice for clients that do not intend to publish messages.
+?> **🔒 Security**: the `read-only` permission provides a layer of security: access to key and secret allows only to subscribe to topics, not publish to them. This permission is a good practice for clients that do not intend to publish messages.
 
 ![shiftr.io token page](_images/fs-shiftrio-token.png)
 

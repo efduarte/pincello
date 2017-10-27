@@ -1,10 +1,10 @@
 # Vibration Sensor (SW-420)
 
-The SW-420 is a digital vibration sensor. After a certain vibration threshold (adjustable in the sensor's potentiometer) it will output a signal informing that there is a vibration. Keep in mind that the signal is binary, it will only inform the presence or absence of vibration, not intensity. This sensor can be very useful as a low cost and easy to use motion sensor when compared to an accelerometer, which is both more expensive and complicated to use.
+The SW-420 is a digital vibration sensor. After a certain vibration threshold (adjustable in the sensor's potentiometer) it will output a signal informing that there is a vibration. Keep in mind that the signal is binary, it will only notify the presence or absence of vibration, not intensity. This sensor can be handy as a low cost and easy to use motion sensor when compared to an accelerometer, which is both more expensive and complicated to use.
 
 ![SW-420 Circuit](_images/sensor-vibration-sw-420.png)
 
-The following code reads the output from the sensor and prints a message on the Serial Monitor when vibration is detected. The code itself is very simple and does not need any library for it to work.
+The following code reads the output from the sensor and prints a message on the Serial Monitor when vibration is detected. The code itself is straightforward and does not need any library for it to work.
 
 ?> **⚙️ Potentiometer:** if your sensor never detects a vibration, or detects too many, try gently turning the sensor's potentiometer. You can make it more sensible by turning the potentiometer counter-clockwise, or less sensitive by turning it clockwise. However, remember to turn it gently, as both extremes are usually not very useful.
 

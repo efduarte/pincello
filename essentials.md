@@ -10,25 +10,25 @@ Pincello has a lot of small components, and your life will be much easier if you
 
 ![Micro USB Cable image](_images/essentials-micro-usb-cable.png)
 
-You will need this cable to both program and provide power to the microcontroller by connecting it to your computer. If the microcontroller is already programmed and you only need to provide power, then you can connect it to a portable charger.
+You will need this cable to both program and provide power to the microcontroller by connecting it to your computer. If the microcontroller is already programmed and you only need to provide power, then you can attach it to a portable charger.
 
 ## ESP8266 NodeMCU 1.0 Microcontroller
 
 ![ESP8266 NodeMCU 1.0 Microcontroller image](_images/essentials-esp8266-nodemcu-10-microcontroller.png)
 
-This microcontroller can be considered the central part of the kit. It has multiple General-Purpose Input/Output (GPIO) pins to connect different kinds of sensors and actuators, it can be programmed with the uncomplicated Arduino Language (C/C++), and it has Wi-Fi, which means it can connect to the Internet.
+This microcontroller can be considered the central part of the kit. It has multiple General-Purpose Input/Output (GPIO) pins to connect different kinds of sensors and actuators, you can program it with the uncomplicated Arduino Language (C/C++), and it has Wi-Fi, which means it can connect to the Internet.
 
 ## 830 Points Breadboard
 
 ![830 Points Breadboard image](_images/essentials-830-points-breadboard.png)
 
-Electronics can be quite difficult (and expensive) if you have to solder connections everytime you want to test an idea. A breadboard is designed to prototype circuits without the need of soldering, and this one will accommodate not only your circuits but also the ESP8266 NodeMCU 1.0 Microcontroller. For more information about breadboards, this tutorial can be useful: [How to Use a Breadboard](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard).
+Electronics can be tricky (and expensive) if you have to solder connections everytime you want to test an idea. A breadboard is designed to prototype circuits without the need of soldering, and this one will accommodate not only your circuits but also the ESP8266 NodeMCU 1.0 Microcontroller. For more information about breadboards, this tutorial can be useful: [How to Use a Breadboard](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard).
 
 ## Rigid Jumper
 
 ![Rigid Jumper image](_images/essentials-rigid-jumper.png)
 
-To connect circuits on a breadboard you need jumpers (which are basically wires). You can use any kind of available jumper to make your circuits. However, a rigid jumper is a bit more practical for prototyping because it already comes in convenient sizes and can be easily and sturdy placed on a breadboard.
+To connect circuits on a breadboard, you need jumpers (which are wires). You can use any available jumper to make your circuits. However, a rigid jumper is a bit more practical for prototyping because it already comes in convenient sizes and can be easily and sturdy placed on a breadboard.
 
 ## 330Ω Resistor
 

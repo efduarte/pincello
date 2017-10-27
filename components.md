@@ -4,7 +4,7 @@ The list of Pincello's recommended components is organized into three categories
 
 ## Essentials
 
-Essential items don't do much on their own. However, in different ways they are all essential parts of Pincello.
+Essential items don't do much on their own. However, in different ways, they are all indispensable parts of Pincello.
 
 - `1x` [Organizer Box](essentials.md#organizer-box)
 - `1x` [Micro USB Cable](essentials.md#micro-usb-cable)
@@ -16,7 +16,7 @@ Essential items don't do much on their own. However, in different ways they are 
 
 ## Sensors
 
-Sensors allow the perception of things in the physical world and translate that information to digital form. It is possible to perceive many things, from natural phenomena such as environmental conditions, to the intentional press of a button.
+Sensors allow the perception of things in the physical world and translate that information into digital form. It is possible to perceive many things, from natural phenomena such as environmental conditions to the intentional press of a button.
 
 - `1x` [Humidity and Temperature (DHT11)](sensor-humidity-and-temperature-dht11.md)
 - `1x` [Capacitive Touch Button (TTP223)](sensor-capacitive-touch-button-ttp223.md)

@@ -1,25 +1,15 @@
 window.$docsify =
 {
     name: '<img alt="Pincello Logo" src="_images/icon.png" height="32" width="32"/><br/>Pincello',
-    // repo: 'efduarte/pincello',
+    repo: 'efduarte/pincello',
     coverpage: true,
     loadSidebar: true,
     subMaxLevel: 0,
-    // loadNavbar: true,
-    // mergeNavbar: true,
     search:
     {
-        noData:
-        {
-            '/pt-br/': 'Nenhum resultado encontrado!',
-            '/': 'No results!'
-        },
+        noData: { '/': 'No results!' },
         paths: 'auto',
-        placeholder:
-        {
-            '/pt-br/': 'Busca',
-            '/': 'Search'
-        }
+        placeholder: { '/': 'Search' }
     },
     plugins:
     [
