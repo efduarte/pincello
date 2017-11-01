@@ -418,7 +418,7 @@ client.on('message', function(topic, message)
 });
 ```
 
-Publishing to a topic is easier, you just need to call the `publishTopic` JavaScript function which has two parameters: the topic to publish to and the message. For instance, `publishTopic('/feedback', "this is my feedback");` would publish the message `"this is my feedback"` to the `'/feedback'` topic.
+Publishing to a topic is easier, you just need to call the `publishTopic` JavaScript function which has two parameters: the topic to publish to and the message. For instance, `publishTopic('/feedback', "this is my feedback");` would publish the message `"this is my feedback"` to the `'/feedback'` topic. Keep in mind that the second parameter, the message to be published, needs to be a string. If you want to publish a number, you will need to wrap it in quotes to send it as a string.
 
 ?> **↕️ Do I need to subscribe before publishing?** You do not need to be subscribed to a topic to publish to it.
 
