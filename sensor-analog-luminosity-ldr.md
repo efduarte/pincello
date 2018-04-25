@@ -1,4 +1,4 @@
-# Luminosity Sensor (LDR)
+# Analog Luminosity Sensor (LDR)
 
 The LDR (Light Dependent Resistor) luminosity sensor is a tiny and inexpensive analog sensor. It works by changing resistance depending on the amount of light 💡 it is exposed to. It can be used to detect when a light is turned on or off, or even when you cover the sensor with your hand in a well-lit environment. In conjunction with the microcontroller, it is capable of detecting luminosity levels on a scale ranging from 0 to 1023.
 

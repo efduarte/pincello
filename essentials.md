@@ -18,9 +18,15 @@ You will need this cable to both program and provide power to the microcontrolle
 
 This microcontroller can be considered the central part of the kit. It has multiple General-Purpose Input/Output (GPIO) pins to connect different kinds of sensors and actuators, you can program it with the uncomplicated Arduino Language (C/C++), and it has Wi-Fi, which means it can connect to the Internet.
 
-## 830 Points Breadboard
+## Arduino Pro Micro Microcontroller
 
-![830 Points Breadboard image](_images/essentials-830-points-breadboard.png)
+![Arduino Pro Micro Microcontroller image](_images/essentials-arduino-pro-micro-microcontroller.png)
+
+This is an alternative microcontroller. The Arduino Pro Micro is based on the Arduino Leonardo board. It has no built-in Wi-Fi, but the ATmega32U4 chip allows the microcontroller to be natively recognized as a USB keyboard and/or mouse. For instance, you can make use of collected sensor data to send specific keypresses and mouse movements to a connected computer.
+
+## 830 and 400 Points Breadboards
+
+![830 and 400 Points Breadboard image](_images/essentials-830-and-430-points-breadboard.png)
 
 Electronics can be tricky (and expensive) if you have to solder connections everytime you want to test an idea. A breadboard is designed to prototype circuits without the need of soldering, and this one will accommodate not only your circuits but also the ESP8266 NodeMCU 1.0 Microcontroller. For more information about breadboards, this tutorial can be useful: [How to Use a Breadboard](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard).
 

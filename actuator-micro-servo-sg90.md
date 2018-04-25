@@ -1,3 +1,3 @@
 # Micro Servo (SG90)
 
-Coming soon...
+![SG90 Circuit](_images/actuator-micro-servo-sg90.png)

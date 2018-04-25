@@ -2,6 +2,8 @@
 
 Coming soon...
 
+!>**⚡ Resistor:** for the safety of your components, don't forget to use a 10kΩ resistor as illustrated.
+
 <!-- ![Demo Button](img/demo-button.png)
 
 !>**Importante!** O resistor utilizado é de 10KΩ, não confundir com o outro que é utilizado em LEDs.

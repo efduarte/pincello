@@ -1,5 +1,7 @@
 # Buzzer
 
+![Buzzer Circuit](_images/actuator-buzzer.png)
+
 Coming soon...
 
 <!-- ![Demo Buzzer](img/demo-buzzer.png)
