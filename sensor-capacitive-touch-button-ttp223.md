@@ -19,7 +19,7 @@ void loop()
 {
     if (digitalRead(button_pin) == HIGH)
     {
-        Serial.println("Button is being pressed!");
+        Serial.println("The capacitive touch button is being pressed!");
     }
 }
 ```
