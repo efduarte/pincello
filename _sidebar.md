@@ -20,7 +20,7 @@
     - [⏳ Hall Effect (A3144)](sensor-hall-effect-a3144.md)
     - [Vibration (SW-420)](sensor-vibration-sw-420.md)
     - [⏳ Sound (KY-038)](sensor-sound-ky-038.md)
-    - [⏳ Tilt (SW-200D)](sensor-tilt-sw-200d.md)
+    - [Tilt (SW-200D)](sensor-tilt-sw-200d.md)
     - [Push Button](sensor-push-button.md)
     
   - **Actuators**
