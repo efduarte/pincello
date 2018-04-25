@@ -15,7 +15,7 @@
     - [⏳ Accelerometer & Gyro (MPU-6050)](sensor-accelerometer-and-gyroscope-mpu-6050.md)
     - [⏳ Ultrasonic Distance (HC-SR04)](sensor-ultrasonic-distance-hc-sr04.md)
     - [Reflexive Obstacle (FC-51)](sensor-reflexive-obstacle-FC-51.md)
-    - [⏳ Digital Luminosity (LDR)](sensor-digital-luminosity-ldr.md)
+    - [Digital Luminosity (LDR)](sensor-digital-luminosity-ldr.md)
     - [Analog Luminosity (LDR)](sensor-analog-luminosity-ldr.md)
     - [⏳ Hall Effect (A3144)](sensor-hall-effect-a3144.md)
     - [Vibration (SW-420)](sensor-vibration-sw-420.md)

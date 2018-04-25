@@ -6,7 +6,7 @@ The FC-51 is a digital reflexive obstacle sensor. It is capable of detecting the
 
 The following code reads the output from the sensor and prints a message on the Serial Monitor when an obstruction is detected in front of the sensor. The code itself is very simple and does not need any library for it to work.
 
-?> **⚙️ Potentiometer:** if your sensor never detects an obstacle, or detects obstacles when there are none, try gently turning the sensor's potentiometer. You can decrease the detection distance to about 2 centimeters by turning the potentiometer counter-clockwise or increase the distance for up to 30 centimeters by turning it clockwise. However, remember to turn it gently, as both extremes are usually not very useful.
+?> **⚙️ Potentiometer:** if your sensor never detects an obstacle, or detects obstacles when there are none, try gently turning the sensor's potentiometer. You can decrease the detection distance to about 2 centimeters by turning the potentiometer counter-clockwise or increase the distance for up to 30 centimeters by turning it clockwise. Remember to turn it gently, as both extremes are usually not very useful.
 
 ```arduino
 const int obstacle_pin = D0;
