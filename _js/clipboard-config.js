@@ -1,4 +1,4 @@
-var clipboard = new Clipboard('.copy-button', {
+var clipboard = new ClipboardJS('.copy-button', {
     target: function(trigger) {
         return trigger.nextElementSibling;
     }
