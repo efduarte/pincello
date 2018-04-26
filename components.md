@@ -21,7 +21,7 @@ Essential items don't do much on their own. However, in different ways, they are
 Sensors allow the perception of things in the physical world and translate that information into digital form. It is possible to perceive many things, from natural phenomena such as environmental conditions to the intentional press of a button.
 
 - `1x` [Humidity and Temperature (DHT11)](sensor-humidity-and-temperature-dht11.md)
-- `1x` [Capacitive Touch Button (TTP223)](sensor-capacitive-touch-button-ttp223.md)
+- `2x` [Capacitive Touch Button (TTP223)](sensor-capacitive-touch-button-ttp223.md)
 - `1x` [Reflexive Obstacle (FC-51)](sensor-reflexive-obstacle-FC-51.md)
 - `1x` [Vibration (SW-420)](sensor-vibration-sw-420.md)
 - `1x` [Luminosity (LDR)](sensor-luminosity-ldr.md)
