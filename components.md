@@ -27,7 +27,7 @@ Sensors allow the perception of things in the physical world and translate that 
 - `1x` [Luminosity (LDR)](sensor-luminosity-ldr.md)
 - `1x` [Sound (KY-038)](sensor-sound-ky-038.md)
 - `1x` [Tilt (SW-200D)](sensor-tilt-sw-200d.md)
-- `6x` [Push Button](sensor-push-button.md)
+- `5x` [Push Button](sensor-push-button.md)
 - `14x` [Push Button Cap](sensor-push-button.md#push-button-caps)
 
 ## Actuators
