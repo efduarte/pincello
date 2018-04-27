@@ -34,7 +34,7 @@ The circuit must be built according to the following representation (you don't n
 
 As the sketch will make use of a third-party library, you will need to install it first. A library made by the same person who created shiftr.io will be used to communicate with the MQTT Broker: the [MQTT library for Arduino by Joel Gaehwiler](https://github.com/256dpi/arduino-mqtt). To install it, go to `Deviot > Find/Install Library` and search for `MQTT Joel Gaehwiler`. This search will return only the correct library, so go ahead and install it. Now create a `basic-communication` sketch:
 
-!> **🔒 Credentials:** remember to edit lines 5 and 6 of the sketch with the shiftr.io microcontroller token you created in [How to Configure the MQTT Broker](fs-how-to-configure-the-mqtt-broker.md), and lines 11 and 12 with the Wi-Fi settings you will be using.
+!> **🔒 Credentials:** remember to edit lines 5 and 6 of the sketch with the shiftr.io microcontroller token you created in [How to Configure the MQTT Broker](fs-how-to-configure-the-mqtt-broker.md), and lines 8 and 9 with the Wi-Fi settings you will be using.
 
 ```arduino
 #include <ESP8266WiFi.h>
