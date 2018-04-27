@@ -24,7 +24,7 @@ Sensors allow the perception of things in the physical world and translate that 
 - `2x` [Capacitive Touch Button (TTP223)](sensor-capacitive-touch-button-ttp223.md)
 - `1x` [Accelerometer & Gyro (MPU-6050)](sensor-accelerometer-and-gyroscope-mpu-6050.md)
 - `1x` [Ultrasonic Distance (HC-SR04)](sensor-ultrasonic-distance-hc-sr04.md)
-- `1x` [Reflexive Obstacle (FC-51)](sensor-reflexive-obstacle-FC-51.md)
+- `1x` [Reflexive Obstacle (FC-51)](sensor-reflexive-obstacle-fc-51.md)
 - `1x` [Digital Luminosity (LDR)](sensor-digital-luminosity-ldr.md)
 - `1x` [Analog Luminosity (LDR)](sensor-analog-luminosity-ldr.md)
 - `1x` [Hall Effect (A3144)](sensor-hall-effect-a3144.md)
