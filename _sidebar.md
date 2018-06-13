@@ -28,5 +28,5 @@
     - [LED](actuator-led.md)
     - [RGB LED](actuator-rgb-led.md)
     - [⏳ Relay](actuator-relay.md)
-    - [⏳ Buzzer](actuator-buzzer.md)
+    - [Buzzer](actuator-buzzer.md)
     - [⏳ Micro Servo (SG90)](actuator-micro-servo-sg90.md)
