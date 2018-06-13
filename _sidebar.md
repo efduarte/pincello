@@ -13,7 +13,7 @@
     - [Humidity and Temperature (DHT11)](sensor-humidity-and-temperature-dht11.md)
     - [Capacitive Touch Button (TTP223)](sensor-capacitive-touch-button-ttp223.md)
     - [Accelerometer & Gyro (MPU-6050)](sensor-accelerometer-and-gyroscope-mpu-6050.md)
-    - [⏳ Ultrasonic Distance (HC-SR04)](sensor-ultrasonic-distance-hc-sr04.md)
+    - [Ultrasonic Distance (HC-SR04)](sensor-ultrasonic-distance-hc-sr04.md)
     - [Reflexive Obstacle (FC-51)](sensor-reflexive-obstacle-fc-51.md)
     - [Digital Luminosity (LDR)](sensor-digital-luminosity-ldr.md)
     - [Analog Luminosity (LDR)](sensor-analog-luminosity-ldr.md)

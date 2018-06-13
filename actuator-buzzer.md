@@ -4,7 +4,7 @@ The buzzer is a simple piezoelectric device that allow us to easily create beepi
 
 ![Buzzer Circuit](_images/actuator-buzzer.png)
 
-?>**🤔 Correct side?** buzzers are polarized, which means one of their connectors is the positive side, and the other is negative. To identify polarity, take notice that the longest pin is usually the positive one, and usually there is also a plus sign on the buzzer casing on the same side as the positive pin.
+?>**🤔 Correct side?** Buzzers are polarized, which means one of their connectors is the positive side, and the other is negative. To identify polarity, take notice that the longest pin is usually the positive one, and usually there is also a plus sign on the buzzer casing on the same side as the positive pin.
 
 The following code turns the buzzer on for one second (1000 milliseconds), turns it off for another second, and then this loop is repeated indefinitely. The code itself is straightforward and does not need any library for it to work.
 
