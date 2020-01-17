@@ -1,6 +1,6 @@
 # Ultrasonic Distance Sensor (HC-SR04)
 
-The ultrasonic distance sensor (HC-SR04) is a relatively simple and easy to use sensor that makes use of the speed of sound 🔊 to detect distance (I know, science is great!). In this regard, it is similar to the sonar systema of a submarine, or the parking sensor in a car 🚗 that warns you when you get too close to the vehicle behind you.
+The ultrasonic distance sensor (HC-SR04) is a relatively simple and easy to use sensor that makes use of the speed of sound 🔊 to detect distance (I know, science is great!). In this regard, it is similar to the sonar system of a submarine, or the parking sensor in a car 🚗 that warns you when you get too close to the vehicle behind you.
 
 ![Ultrasonic Distance Sensor (HC-SR04) Circuit](_images/sensor-ultrasonic-distance-hc-sr04.png)
 
