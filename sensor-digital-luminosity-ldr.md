@@ -1,6 +1,6 @@
 # Digital Luminosity Sensor (LDR)
 
-This digital luminosity sensor indicate wheter the detected luminosity is above or below a certain threshold, that can be adjusted. Because the signal is digital, it will not provide precise data such as a standalone LDR in an analog pin. But the digital signal makes this sensor easier to use in comparison with a standalone LDR. This sensor can be used to detect touchless interactions, such as reaching your hand towards the sensor without the need to actually touch it.
+This digital luminosity sensor indicate whether the detected luminosity is above or below a certain threshold, that can be adjusted. Because the signal is digital, it will not provide precise data such as a standalone LDR in an analog pin. But the digital signal makes this sensor easier to use in comparison with a standalone LDR. This sensor can be used to detect touchless interactions, such as reaching your hand towards the sensor without the need to actually touch it.
 
 ![Digital Luminosity Sensor (LDR) Circuit](_images/sensor-digital-luminosity-ldr.png)
 
