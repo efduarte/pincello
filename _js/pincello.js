@@ -1,6 +1,6 @@
 window.$docsify =
 {
-    name: '<img alt="Pincello Logo" src="_images/icon.png" height="32" width="32"/><br/>Pincello',
+    name: 'Pincello',
     repo: 'efduarte/pincello',
     coverpage: true,
     loadSidebar: true,
